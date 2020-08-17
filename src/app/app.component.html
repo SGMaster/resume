@@ -2,9 +2,9 @@
   <div style="width: 100%; height: 100%; background: #212121;">
     <mat-card style="background: #474747; width: 100%; position:absolute;">
     <mat-card-content>
-    <button *ngIf="!sobr" mat-stroked-button color="primary" (click)="sobre()" style="margin-right: 17px; background-color: white!important; opacity: 0.46!important">Sobre</button>
+    <button *ngIf="!sobr" mat-stroked-button color="primary" (click)="sobre()" style="margin-right: 17px; background-color: #673ab7!important; color:#fff!important; opacity: 0.46!important">Sobre</button>
     <button *ngIf="sobr" mat-raised-button color="primary" (click)="sobre()" style="margin-right: 17px;">Sobre</button>
-    <button *ngIf="!curiosidade" mat-stroked-button color="primary" style="background-color: white!important; opacity: 0.46!important" (click)="curiosidades()" >Curiosidades</button>
+    <button *ngIf="!curiosidade" mat-stroked-button color="primary" style="background-color: #673ab7!important; color:#fff!important; opacity: 0.46!important" (click)="curiosidades()" >Curiosidades</button>
     <button *ngIf="curiosidade" mat-raised-button color="primary" (click)="curiosidades()" >Curiosidades</button>
   </mat-card-content>
   </mat-card>
