@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curriculo';
+  curiosidade: boolean;
+  sobr: boolean = true;
+
+  curiosidades(){
+    this.curiosidade = true;
+    this.sobr = false;
+  }
+
+  sobre() {
+    this.curiosidade = false;
+    this.sobr = true;
+  }
+
+
+
 }
